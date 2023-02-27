@@ -1,6 +1,17 @@
 # Changelog
 
 
+## v0.0.3
+
+
+### 📖 Documentation
+
+  - Normalize (b2307df)
+
+### ❤️  Contributors
+
+- Markthree ([@markthree](http://github.com/markthree))
+
 ## v0.0.2
 
 
