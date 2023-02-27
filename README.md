@@ -9,6 +9,8 @@ ultrafast get folder size after build
 - ultrafast，power by
   [go-get-folder-size](https://github.com/markthree/go-get-folder-size)
 
+<br />
+
 ## Usage
 
 ### install
