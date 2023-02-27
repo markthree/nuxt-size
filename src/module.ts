@@ -1,6 +1,7 @@
 import { cyan, gray } from "kolorist";
+// @ts-ignore
+import { getFolderSizeBin } from "go-get-folder-size/npm/bin.mjs";
 import { defineNuxtModule, logger as _logger } from "@nuxt/kit";
-import { getFolderSizeBin } from "go-get-folder-size/npm/bin";
 
 const logger = _logger.withTag("nuxt-size");
 
