@@ -1,6 +1,17 @@
 # Changelog
 
 
+## v0.0.2
+
+
+### 🏡 Chore
+
+  - Add changelog (7858e42)
+
+### ❤️  Contributors
+
+- Markthree ([@markthree](http://github.com/markthree))
+
 ## v0.0.1
 
 
