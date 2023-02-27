@@ -1,7 +1,7 @@
 {
   "name": "nuxt-size",
   "version": "0.0.0",
-  "description": "ultrafast get folder size after build",
+  "description": "ultrafast get output size after build",
   "license": "MIT",
   "type": "module",
   "exports": {
@@ -28,7 +28,8 @@
   },
   "dependencies": {
     "@nuxt/kit": "^3.2.2",
-    "go-get-folder-size": "^0.1.2"
+    "go-get-folder-size": "^0.1.2",
+    "kolorist": "^1.7.0"
   },
   "devDependencies": {
     "@nuxt/eslint-config": "^0.1.1",

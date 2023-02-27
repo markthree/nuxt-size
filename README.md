@@ -33,11 +33,7 @@ export default defineNuxtConfig({
 npx nuxi build
 ```
 
-The console will output
-
-```shell
-The output size is xx
-```
+The console will output the finally size
 
 <br />
 
