@@ -8,14 +8,14 @@ specifiers:
   '@nuxt/test-utils': ^3.2.2
   changelogen: ^0.4.1
   eslint: ^8.35.0
-  go-get-folder-size: ^0.1.2
+  go-get-folder-size: ^0.1.3
   kolorist: ^1.7.0
   nuxt: ^3.2.2
   vitest: ^0.29.1
 
 dependencies:
   '@nuxt/kit': 3.2.2
-  go-get-folder-size: 0.1.2
+  go-get-folder-size: 0.1.3
   kolorist: 1.7.0
 
 devDependencies:
@@ -3113,8 +3113,8 @@ packages:
       merge2: 1.4.1
       slash: 4.0.0
 
-  /go-get-folder-size/0.1.2:
-    resolution: {integrity: sha512-u90c+tYzdm1YzQhuFtyUYHcvKZnWsHK4RRMfaErnGLOJewGxCi2MSpgxnjENu9zIC/AOkfbDGRBQeK4L3JJJ8Q==}
+  /go-get-folder-size/0.1.3:
+    resolution: {integrity: sha512-y30lm/8463yBkS6gBIqoKhhVBWBqAV+lV6O1BhdZkn0pkPUahmJBI2uxNj6d0kPOBJeL55fNY8q/dg29aicRBw==}
     hasBin: true
     dev: false
 
