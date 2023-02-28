@@ -1,6 +1,21 @@
 # Changelog
 
 
+## v0.0.5
+
+
+### 🚀 Enhancements
+
+  - Add buildDir size (c98a427)
+
+### 📖 Documentation
+
+  - Normalize (6ceabe4)
+
+### ❤️  Contributors
+
+- Markthree ([@markthree](http://github.com/markthree))
+
 ## v0.0.4
 
 
