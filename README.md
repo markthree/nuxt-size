@@ -1,6 +1,6 @@
 # nuxt-size
 
-ultrafast get output size after build
+ultrafast get folder size after build
 
 <br />
 
