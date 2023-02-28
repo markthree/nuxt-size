@@ -29,7 +29,8 @@
   "dependencies": {
     "@nuxt/kit": "^3.2.2",
     "go-get-folder-size": "^0.1.3",
-    "kolorist": "^1.7.0"
+    "kolorist": "^1.7.0",
+    "m-type-tools": "^0.4.0"
   },
   "devDependencies": {
     "@nuxt/eslint-config": "^0.1.1",
