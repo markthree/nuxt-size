@@ -1,6 +1,21 @@
 # Changelog
 
 
+## v0.1.0
+
+
+### 🏡 Chore
+
+  - ⚠️  Change configKey (7e6135f)
+
+#### ⚠️  Breaking Changes
+
+  - ⚠️  Change configKey (7e6135f)
+
+### ❤️  Contributors
+
+- Markthree ([@markthree](http://github.com/markthree))
+
 ## v0.0.6
 
 
