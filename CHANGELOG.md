@@ -1,6 +1,17 @@
 # Changelog
 
 
+## v0.0.6
+
+
+### 🏡 Chore
+
+  - Update deps (fa7f5ac)
+
+### ❤️  Contributors
+
+- Markthree ([@markthree](http://github.com/markthree))
+
 ## v0.0.5
 
 
