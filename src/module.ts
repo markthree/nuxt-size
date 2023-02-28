@@ -14,7 +14,7 @@ interface ModuleOptions {
 export default defineNuxtModule<ModuleOptions>({
   meta: {
     name: "nuxt-size",
-    configKey: "nuxt-size",
+    configKey: "size",
     compatibility: {
       nuxt: "^3.0.0",
     },
