@@ -35,7 +35,19 @@ export default defineNuxtConfig({
 npx nuxi build
 ```
 
+or
+
+```shell
+npx nuxi generate
+```
+
 The console will output the finally size
+
+```shell
+Σ Output size: {your size} - D:/Code/Work/nuxt-size/playground/.output
+```
+
+![./snapshot.gif](./snapshot.gif)
 
 <br />
 
