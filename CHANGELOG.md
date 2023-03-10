@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v0.1.1
+
+
+### 📖 Documentation
+
+  - Add snapshot (34e9114)
+
+### 🏡 Chore
+
+  - Update deps (1f6f607)
+  - Update deps (6876f45)
+
+### ❤️  Contributors
+
+- Markthree ([@markthree](http://github.com/markthree))
+
 ## v0.1.0
 
 
