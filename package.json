@@ -30,7 +30,8 @@
   "dependencies": {
     "@nuxt/kit": "^3.2.3",
     "go-get-folder-size": "^0.2.10",
-    "kolorist": "^1.7.0"
+    "kolorist": "^1.7.0",
+    "std-env": "^3.3.2"
   },
   "devDependencies": {
     "@nuxt/eslint-config": "^0.1.1",

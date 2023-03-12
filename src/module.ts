@@ -4,6 +4,8 @@ import { cyan, gray } from "kolorist";
 import { getFolderSizeBin } from "go-get-folder-size/npm/bin.mjs";
 import { defineNuxtModule, logger as _logger } from "@nuxt/kit";
 
+import { isCI } from "std-env";
+
 const logger = _logger.withTag("nuxt-size");
 
 interface ModuleOptions {
@@ -24,19 +26,20 @@ export default defineNuxtModule<ModuleOptions>({
     showBuildDir: false,
   },
   setup(options, nuxt) {
-    const { dev, rootDir, buildDir } = nuxt.options;
-    if (dev) return;
+    if (!isCI) {
+      const { dev, rootDir, buildDir } = nuxt.options;
+      if (dev) return;
 
-    const { showBuildDir, showOutput } = options;
+      const { showBuildDir, showOutput } = options;
 
-    if (showOutput) {
-      useBuildClose(`${rootDir}/.output`, "Σ Output size");
+      if (showOutput) {
+        useBuildClose(`${rootDir}/.output`, "Σ Output size");
+      }
+
+      if (showBuildDir) {
+        useBuildClose(buildDir, "Σ BuildDir size");
+      }
     }
-
-    if (showBuildDir) {
-      useBuildClose(buildDir, "Σ BuildDir size");
-    }
-
     function useBuildClose(base: string, tip: string) {
       nuxt.hook("build:done", () => {
         nuxt.hook("close", async () => {
