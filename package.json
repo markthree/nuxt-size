@@ -1,6 +1,6 @@
 {
   "name": "nuxt-size",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "ultrafast get folder size after build",
   "license": "MIT",
   "type": "module",

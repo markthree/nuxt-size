@@ -1,6 +1,17 @@
 # Changelog
 
 
+## v0.1.2
+
+
+### 🩹 Fixes
+
+  - Prohibit use in ci (7a82494)
+
+### ❤️  Contributors
+
+- Markthree ([@markthree](http://github.com/markthree))
+
 ## v0.1.1
 
 
